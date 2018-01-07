@@ -1,3 +1,6 @@
+---
+title: first blog
+---
 # Upmath: Math Online Editor
 ### _Create web articles and&nbsp;blog posts with&nbsp;equations and&nbsp;diagrams_
 
