@@ -1,2 +1,2 @@
-Jie Ren's blog
+Jie Ren's personal website/blogs
 
