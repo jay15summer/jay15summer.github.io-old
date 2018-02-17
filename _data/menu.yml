@@ -1,7 +1,7 @@
 # menu.yml contents
 
 - title: Home
-  url: /default/
+  url: /home/
 - title: Tags
   url: /tags/
 - title: Categories
