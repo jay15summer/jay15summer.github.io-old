@@ -1,6 +1,6 @@
 # menu.yml contents
 
-- title: Your Awesome Website
+- title: Home
   url:
 - title: Tags
   url: /tags/
