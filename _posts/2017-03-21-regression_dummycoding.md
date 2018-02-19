@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "Test!"
+title:  "Dealing with categorical variables in regression"
 categories: blog 
-tags: test
+tags: regression
 ---
-# Dealing with categorical variables in regression
 ## 1. Brief introduction
 
 Under most situations, categorical variables cannot be entered directly into a regression model and be meaningfully interpreted. As a result, a common method dealing with categorical variables in regression is **Dummy Coding**. Dummy coding refers to the process of coding categorical variables into dichotomous variables ([Wikiversity](https://en.wikiversity.org/wiki/Dummy_variable_(statistics))).
@@ -51,7 +50,7 @@ dv_status = dummyvar(status)
 gender = categorical({'M'; 'F'; 'M'});
 dv_gender_status = [dummyvar(gender) dummyvar(status)]
 ```
-<pre class = "codeoutput">
+<pre class="codeoutput">
 dv_status =
 
      1     0     0
@@ -66,6 +65,62 @@ dv_gender_status =
      0     1     0     0     1
 </pre>
 
-## 4. An example of using dummy coding for categorical regression:
+## 4. An example of using dummy coding for categorical regression
 Categorical regression using dummy coding can be done either manually or automatically in Matlab.
 The codes are shown respectively as follows which generate the same fitting results. 
+```matlab
+% 4.A Manually dummy coding
+load('carsmall')
+cars = table(MPG, Weight, Model_Year);
+cars.Model_Year = nominal(cars.Model_Year);
+dv = dummyvar(cars.Model_Year);
+Model_Year1 = dv(:, 1); Model_Year2 = dv(:, 2); Model_Year3 = dv(:, 3);
+cars = table(MPG, Weight, Model_Year2, Model_Year3);
+fit = fitlm(cars, 'MPG~Weight*Model_Year2 + Weight*Model_Year3')
+```
+<pre class="codeputput">
+fit = 
+
+
+Linear regression model:
+    MPG ~ 1 + Weight*Model_Year2 + Weight*Model_Year3
+
+Estimated Coefficients:
+                           Estimate          SE         tStat        pValue  
+                          ___________    __________    ________    __________
+
+    (Intercept)                37.399        2.1466      17.423    2.8607e-30
+    Weight                 -0.0058437    0.00061765     -9.4612    4.6077e-15
+    Model_Year2                4.6903        2.8538      1.6435       0.10384
+    Model_Year3                21.051         4.157      5.0641    2.2364e-06
+    Weight:Model_Year2    -0.00082009    0.00085468    -0.95953       0.33992
+    Weight:Model_Year3     -0.0050551     0.0015636     -3.2329     0.0017256
+</pre>
+
+```matlab
+% 4.B Automatic dummy coding via built-in matlab function
+load('carsmall')
+cars = table(MPG, Weight, Model_Year);
+cars.Model_Year = nominal(cars.Model_Year);
+fit = fitlm(cars, 'MPG~Weight*Model_Year')
+```
+<pre class="codeputput">
+fit = 
+
+
+Linear regression model:
+    MPG ~ 1 + Weight*Model_Year
+
+Estimated Coefficients:
+                             Estimate          SE         tStat        pValue  
+                            ___________    __________    ________    __________
+
+    (Intercept)                  37.399        2.1466      17.423    2.8607e-30
+    Weight                   -0.0058437    0.00061765     -9.4612    4.6077e-15
+    Model_Year_76                4.6903        2.8538      1.6435       0.10384
+    Model_Year_82                21.051         4.157      5.0641    2.2364e-06
+    Weight:Model_Year_76    -0.00082009    0.00085468    -0.95953       0.33992
+    Weight:Model_Year_82     -0.0050551     0.0015636     -3.2329     0.0017256
+
+</pre>
+
