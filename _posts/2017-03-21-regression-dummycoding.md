@@ -54,7 +54,7 @@ dv_status = dummyvar(status)
 gender = categorical({'M'; 'F'; 'M'});
 dv_gender_status = [dummyvar(gender) dummyvar(status)]
 ```
-<br><br>
+<br>
 <pre class="codeoutput">
 dv_status =
 
@@ -85,7 +85,7 @@ Model_Year1 = dv(:, 1); Model_Year2 = dv(:, 2); Model_Year3 = dv(:, 3);
 cars = table(MPG, Weight, Model_Year2, Model_Year3);
 fit = fitlm(cars, 'MPG~Weight*Model_Year2 + Weight*Model_Year3')
 ```
-<br><br>
+<br>
 <pre class="codeputput">
 fit = 
 
@@ -103,7 +103,7 @@ Estimated Coefficients:
     Weight:Model_Year2    -0.00082009    0.00085468    -0.95953       0.33992
     Weight:Model_Year3     -0.0050551     0.0015636     -3.2329     0.0017256
 </pre>
-<br><br>
+<br>
 ```matlab
 % 4.B Automatic dummy coding via built-in matlab function
 load('carsmall')
@@ -111,7 +111,7 @@ cars = table(MPG, Weight, Model_Year);
 cars.Model_Year = nominal(cars.Model_Year);
 fit = fitlm(cars, 'MPG~Weight*Model_Year')
 ```
-<br><br>
+<br>
 <pre class="codeputput">
 fit = 
 
