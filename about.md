@@ -12,7 +12,7 @@ permalink: /about/
 
 **I** joined FSU in Aug. 2014 as a Ph.D. student majoring in Industrial Engineering. I obtained my Bachelor degree in Industrial Engineering and a minor degree in Accounting both from Shanghai Jiao Tong University, Shanghai, China. 
 
-# Research
+## <span class="mw-headline" id="Research">Research</span>
 I am working on spatial modeling and transfer learning for accurate manufacturing including traditional CNC machining and the state-of-the-art additive manufacturing. The excitement of this research comes from that I
 
 is another word for **weblog**. A weblog is a [website](/wiki/Website "Website") that is like a diary or [journal](/wiki/Journal "Journal"). Most people can create a blog and then write on that blog. Bloggers (a word for people who write on blogs) often write about their [opinions](/wiki/Opinion "Opinion") and thoughts. A blog containing [video](/wiki/Video "Video") material is called a **video blog** or **video log**, usually shortened to **vlog**.<sup id="cite_ref-1" class="reference">[[1]](#cite_note-1)</sup>
