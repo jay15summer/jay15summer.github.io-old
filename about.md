@@ -3,19 +3,17 @@ layout: page
 title: Jie Ren
 permalink: /about/
 ---
-Ph.D. student
-
-Department of Industrial and Manufacturing Engineering
-
+Ph.D. student|
+Department of Industrial and Manufacturing Engineering|
 Florida State University
+Email:jr14r@my.fsu.edu|
+Github:[@jay15summer](https://github.com/jay15summer)|
+Links: [Google scholar page](https://scholar.google.com/citations?user=9pqclwIAAAAJ&hl=en&oi=ao)|
 
-Email:[jr14r@my.fsu.edu]
 
-Github:[@jay15summer](https://github.com/jay15summer)
 
-Links: [Google scholar page](https://scholar.google.com/citations?user=9pqclwIAAAAJ&hl=en&oi=ao)
 
-**Blog** is another word for **weblog**. A weblog is a [website](/wiki/Website "Website") that is like a diary or [journal](/wiki/Journal "Journal"). Most people can create a blog and then write on that blog. Bloggers (a word for people who write on blogs) often write about their [opinions](/wiki/Opinion "Opinion") and thoughts. A blog containing [video](/wiki/Video "Video") material is called a **video blog** or **video log**, usually shortened to **vlog**.<sup id="cite_ref-1" class="reference">[[1]](#cite_note-1)</sup>
+is another word for **weblog**. A weblog is a [website](/wiki/Website "Website") that is like a diary or [journal](/wiki/Journal "Journal"). Most people can create a blog and then write on that blog. Bloggers (a word for people who write on blogs) often write about their [opinions](/wiki/Opinion "Opinion") and thoughts. A blog containing [video](/wiki/Video "Video") material is called a **video blog** or **video log**, usually shortened to **vlog**.<sup id="cite_ref-1" class="reference">[[1]](#cite_note-1)</sup>
 
 When a person writes on a blog, what they write is in the form of a _post_, which is a single piece of writing on the blog. Posts often include [links](/wiki/Link "Link") to other websites.
 
