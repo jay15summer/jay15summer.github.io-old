@@ -39,83 +39,9 @@ data = pd.DataFrame({'gender':['M','F', 'M'], 'status':['faculty','staff','stude
 dv2 = pd.get_dummies(data)
 print(dv2)
 ```
+<br><br>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-s6z2" colspan="3">Output:</th>
-  </tr>
-  <tr>
-    <td class="tg-s6z2" colspan="3">dv1</td>
-  </tr>
-  <tr>
-    <td class="tg-s6z2">status_faculty</td>
-    <td class="tg-s6z2">status_staff</td>
-    <td class="tg-s6z2">status_student</td>
-  </tr>
-  <tr>
-    <td class="tg-s6z2">1</td>
-    <td class="tg-s6z2">0</td>
-    <td class="tg-s6z2">0</td>
-  </tr>
-  <tr>
-    <td class="tg-s6z2">0</td>
-    <td class="tg-s6z2">1</td>
-    <td class="tg-s6z2">0</td>
-  </tr>
-  <tr>
-    <td class="tg-baqh">0</td>
-    <td class="tg-baqh">0</td>
-    <td class="tg-baqh">1</td>
-  </tr>
-</table>
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-s6z2{text-align:center}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-s6z2" colspan="5">dv2</th>
-  </tr>
-  <tr>
-    <td class="tg-s6z2">gender_F</td>
-    <td class="tg-s6z2">gender_M</td>
-    <td class="tg-s6z2">status_faculty</td>
-    <td class="tg-baqh">status_staff</td>
-    <td class="tg-baqh">status_student</td>
-  </tr>
-  <tr>
-    <td class="tg-s6z2">0</td>
-    <td class="tg-s6z2">1</td>
-    <td class="tg-s6z2">1</td>
-    <td class="tg-baqh">0</td>
-    <td class="tg-baqh">0</td>
-  </tr>
-  <tr>
-    <td class="tg-s6z2">1</td>
-    <td class="tg-s6z2">0</td>
-    <td class="tg-s6z2">0</td>
-    <td class="tg-baqh">1</td>
-    <td class="tg-baqh">0</td>
-  </tr>
-  <tr>
-    <td class="tg-s6z2">0</td>
-    <td class="tg-s6z2">1</td>
-    <td class="tg-s6z2">0</td>
-    <td class="tg-baqh">0</td>
-    <td class="tg-baqh">1</td>
-  </tr>
-</table>
+<table style="border-collapse:collapse;border-spacing:0"><tr><th style="font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center" colspan="5">dv2</th></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center">gender_F</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center">gender_M</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center">status_faculty</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center;vertical-align:top">status_staff</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center;vertical-align:top">status_student</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center">0</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center">1</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center">1</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center;vertical-align:top">0</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center;vertical-align:top">0</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center">1</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center">0</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center">0</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center;vertical-align:top">1</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center;vertical-align:top">0</td></tr><tr><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center">0</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center">1</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center">0</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center;vertical-align:top">0</td><td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;text-align:center;vertical-align:top">1</td></tr></table>
 
 ## 3. Dummy coding in Matlab
 
@@ -127,6 +53,7 @@ dv_status = dummyvar(status)
 gender = categorical({'M'; 'F'; 'M'});
 dv_gender_status = [dummyvar(gender) dummyvar(status)]
 ```
+<br><br>
 
 <pre class="codeoutput">
 dv_status =
@@ -158,10 +85,10 @@ Model_Year1 = dv(:, 1); Model_Year2 = dv(:, 2); Model_Year3 = dv(:, 3);
 cars = table(MPG, Weight, Model_Year2, Model_Year3);
 fit = fitlm(cars, 'MPG~Weight*Model_Year2 + Weight*Model_Year3')
 ```
+<br><br>
 
 <pre class="codeputput">
 fit = 
-
 
 Linear regression model:
     MPG ~ 1 + Weight*Model_Year2 + Weight*Model_Year3
@@ -185,10 +112,10 @@ cars = table(MPG, Weight, Model_Year);
 cars.Model_Year = nominal(cars.Model_Year);
 fit = fitlm(cars, 'MPG~Weight*Model_Year')
 ```
+<br><br>
 
 <pre class="codeputput">
 fit = 
-
 
 Linear regression model:
     MPG ~ 1 + Weight*Model_Year
