@@ -6,8 +6,8 @@ permalink: /about/
 * Ph.D. student
 * Department of Industrial and Manufacturing Engineering
 * Florida State University
-* Email:jr14r@my.fsu.edu
-* Github:[@jay15summer](https://github.com/jay15summer)
+* Email: jr14r@my.fsu.edu
+* Github: [@jay15summer](https://github.com/jay15summer)
 * Links: [Google scholar page](https://scholar.google.com/citations?user=9pqclwIAAAAJ&hl=en&oi=ao)
 
 **I** joined FSU in Aug. 2014 as a Ph.D. student majoring in Industrial Engineering. I obtained my Bachelor degree in Industrial Engineering and a minor degree in Accounting both from Shanghai Jiao Tong University, Shanghai, China. 
