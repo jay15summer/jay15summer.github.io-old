@@ -17,7 +17,7 @@ Maximum likelihood estimation can be used to fitting the model and Newton’s me
  
 Since the right-hand side of the regression equation is linear, logistic regression is considered to be a linear classifier. Its decision boundary can be clearly seen from the following figures. In the figures, three datasets are tested and the classification accuracy is 0.88, 0.42, and 0.97 respectively. Obviously, the decision boundary is linear. 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/jay15summer/jay15summer.github.io/blob/master/figures/logistic-regression1.png)
 
 ```python
 # Decision boundaries of logistic regression
