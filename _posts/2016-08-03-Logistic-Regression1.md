@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LOGISTIC REGRESSION"
+title:  "Logistic Regression"
 categories: blog 
 tags: [regression, logistic regression, classification, basic theories]
 ---
